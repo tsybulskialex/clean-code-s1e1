@@ -18,9 +18,9 @@
 }
 
 @media (max-width:768px) {
-.about { 
-  text-align: center;
-}
+  .about { 
+    text-align: center;
+  }
 }
 .main-wrapper {
   display: block;
@@ -42,7 +42,7 @@
 .item, .title {
   list-style:none;
 }
-.text-input, .checkbox-input, .btn{
+.text-input, .checkbox-input, .btn {
   outline:none;
 }
 .btn {
@@ -116,7 +116,7 @@
   font-size: 18px;
   width: 226px;
 }
-.item >    .text-input {
+.item > .text-input {
   width: 226px
 }
 .item__img {
