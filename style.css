@@ -39,11 +39,12 @@
   flex-grow: 1;
 }
 
-.adding__wrapper {
+.add__content__wrapper {
   display: flex;
 }
 
-.items {
+.todo__items,
+.done__items {
   margin: 0;
   padding: 0px;
 }
@@ -75,7 +76,7 @@
 
 /* Heading */
 .title,
-.adding__title {
+.add__content_title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +104,7 @@
 }
 
 /* New Task */
-.adding__title {
+.add__content_title {
   display: block;
   margin: 0 0 20px;
 }
