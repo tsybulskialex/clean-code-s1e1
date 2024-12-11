@@ -36,14 +36,14 @@
   display: flex;
 }
 .items {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .item, .title {
-  list-style:none;
+  list-style: none;
 }
 .text-input, .checkbox-input, .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -136,14 +136,14 @@
 
 /* Edit Task */
 .item .text-input {
-  display:none
+  display: none
 }
 
 .item.edit-mode .text-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .item.edit-mode .task-label {
-  display:none;
+  display: none;
 }
